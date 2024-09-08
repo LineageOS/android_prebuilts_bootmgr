@@ -1,0 +1,7 @@
+commit d43741bfd8c9a9e89f1a3b7796947da13c2d06f6 (HEAD -> lineage-21.0, github/lineage-21.0)
+Author: Yumi Yukimura <me.cafebabe@gmail.com>
+Date:   Tue Jul 23 05:15:43 2024 +0800
+
+    Introduce loadstring command for loading partition data into variable
+    
+    Change-Id: I5ec3a7533718f4f08da0144531f8962e9211ee85

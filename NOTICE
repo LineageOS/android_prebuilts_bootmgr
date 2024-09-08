@@ -2,6 +2,9 @@
 
 This repository includes various open-source components, each licensed under different open-source licenses. The following is a breakdown of the licenses applicable to the software distributed in this repository:
 
+### **grub**
+- Licensed under the GNU General Public License v3 (GPLv3). See the file `LICENSE_GPLv3`.
+
 ### **mtools (includes mcopy, mformat)**
 - Licensed under the GNU General Public License v3 (GPLv3). See the file `LICENSE_GPLv3`.
 
