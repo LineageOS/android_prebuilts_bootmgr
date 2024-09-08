@@ -5,5 +5,8 @@ This repository includes various open-source components, each licensed under dif
 ### **mtools (includes mcopy, mformat)**
 - Licensed under the GNU General Public License v3 (GPLv3). See the file `LICENSE_GPLv3`.
 
+### **rEFInd**
+- Please refer to the file `LICENSE_rEFInd`.
+
 ### **xorriso**
 - Licensed under the GNU General Public License (GPL), version 3 or later. See the file `LICENSE_GPLv3`.
