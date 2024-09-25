@@ -1,4 +1,22 @@
-commit d43741bfd8c9a9e89f1a3b7796947da13c2d06f6 (HEAD -> lineage-21.0, github/lineage-21.0)
+commit 72b0463d65eb5697e5aa2c16542fa3f5478f5788 (HEAD -> lineage-21.0, github/lineage-21.0)
+Author: Yumi Yukimura <me.cafebabe@gmail.com>
+Date:   Fri Sep 20 23:53:13 2024 +0800
+
+    loadstring: Implement `offset` and `size` argument
+    
+    * Increase max string length to 512 while we're at it
+    
+    Change-Id: I8ea84e22ca993f863363921789df3b373985ec21
+
+commit 7138c889ac593cf8758725d1467d1d28ec7f9356
+Author: Yumi Yukimura <me.cafebabe@gmail.com>
+Date:   Thu Sep 26 04:53:20 2024 +0800
+
+    loadstring: Clear buffer before reading
+    
+    Change-Id: I79a330ac4df839f62341800e972ac02358a23d07
+
+commit d43741bfd8c9a9e89f1a3b7796947da13c2d06f6
 Author: Yumi Yukimura <me.cafebabe@gmail.com>
 Date:   Tue Jul 23 05:15:43 2024 +0800
 
