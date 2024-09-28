@@ -17,7 +17,7 @@
 # along with GRUB.  If not, see <http://www.gnu.org/licenses/>.
 
 _grub_probe () {
-    . ./prebuilts/grub/linux-x86/x86_64-efi/share/bash-completion/completions/grub && __grub_probe
+    . ./prebuilts/bootmgr/grub/linux-x86/x86_64-efi/share/bash-completion/completions/grub && __grub_probe
 }
 complete -F _grub_probe -o filenames grub-probe
 

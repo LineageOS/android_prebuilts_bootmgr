@@ -17,14 +17,14 @@
 # along with GRUB.  If not, see <http://www.gnu.org/licenses/>.
 
 # Initialize some variables.
-prefix=./prebuilts/grub/linux-x86/x86_64-efi
-exec_prefix=./prebuilts/grub/linux-x86/x86_64-efi
+prefix=./prebuilts/bootmgr/grub/linux-x86/x86_64-efi
+exec_prefix=./prebuilts/bootmgr/grub/linux-x86/x86_64-efi
 bindir=${exec_prefix}/bin
 sbindir=${exec_prefix}/sbin
 sysconfdir="${prefix}/etc"
 PACKAGE_NAME=GRUB
 PACKAGE_VERSION=2.13
-datarootdir="./prebuilts/grub/linux-x86/x86_64-efi/share"
+datarootdir="./prebuilts/bootmgr/grub/linux-x86/x86_64-efi/share"
 datadir="${datarootdir}"
 if [ "x$pkgdatadir" = x ]; then
     pkgdatadir="${datadir}/grub"

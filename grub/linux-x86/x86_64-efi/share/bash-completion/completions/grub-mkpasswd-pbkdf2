@@ -17,7 +17,7 @@
 # along with GRUB.  If not, see <http://www.gnu.org/licenses/>.
 
 _grub_mkpasswd_pbkdf2 () {
-    . ./prebuilts/grub/linux-x86/x86_64-efi/share/bash-completion/completions/grub && __grub_mkpasswd_pbkdf2
+    . ./prebuilts/bootmgr/grub/linux-x86/x86_64-efi/share/bash-completion/completions/grub && __grub_mkpasswd_pbkdf2
 }
 complete -F _grub_mkpasswd_pbkdf2 -o filenames grub-mkpasswd-pbkdf2
 

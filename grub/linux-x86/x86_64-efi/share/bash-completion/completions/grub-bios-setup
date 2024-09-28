@@ -17,7 +17,7 @@
 # along with GRUB.  If not, see <http://www.gnu.org/licenses/>.
 
 _grub_bios_setup () {
-    . ./prebuilts/grub/linux-x86/x86_64-efi/share/bash-completion/completions/grub && __grub_setup
+    . ./prebuilts/bootmgr/grub/linux-x86/x86_64-efi/share/bash-completion/completions/grub && __grub_setup
 }
 complete -F _grub_bios_setup -o filenames grub-bios-setup
 

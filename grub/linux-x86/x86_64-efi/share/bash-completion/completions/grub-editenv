@@ -17,7 +17,7 @@
 # along with GRUB.  If not, see <http://www.gnu.org/licenses/>.
 
 _grub_editenv () {
-    . ./prebuilts/grub/linux-x86/x86_64-efi/share/bash-completion/completions/grub && __grub_editenv
+    . ./prebuilts/bootmgr/grub/linux-x86/x86_64-efi/share/bash-completion/completions/grub && __grub_editenv
 }
 complete -F _grub_editenv -o filenames grub-editenv
 

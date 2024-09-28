@@ -17,9 +17,9 @@ set -e
 # You should have received a copy of the GNU General Public License
 # along with GRUB.  If not, see <http://www.gnu.org/licenses/>.
 
-prefix="./prebuilts/grub/linux-x86/x86_64-efi"
-exec_prefix="./prebuilts/grub/linux-x86/x86_64-efi"
-datarootdir="./prebuilts/grub/linux-x86/x86_64-efi/share"
+prefix="./prebuilts/bootmgr/grub/linux-x86/x86_64-efi"
+exec_prefix="./prebuilts/bootmgr/grub/linux-x86/x86_64-efi"
+datarootdir="./prebuilts/bootmgr/grub/linux-x86/x86_64-efi/share"
 grub_lang=`echo $LANG | cut -d . -f 1`
 
 export TEXTDOMAIN=grub

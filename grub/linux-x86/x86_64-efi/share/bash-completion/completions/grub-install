@@ -17,7 +17,7 @@
 # along with GRUB.  If not, see <http://www.gnu.org/licenses/>.
 
 _grub_install () {
-    . ./prebuilts/grub/linux-x86/x86_64-efi/share/bash-completion/completions/grub && __grub_install
+    . ./prebuilts/bootmgr/grub/linux-x86/x86_64-efi/share/bash-completion/completions/grub && __grub_install
 }
 complete -F _grub_install -o filenames grub-install
 
