@@ -1,4 +1,20 @@
-commit 72b0463d65eb5697e5aa2c16542fa3f5478f5788 (HEAD -> lineage-21.0, github/lineage-21.0)
+commit 903db50cb538e5e70cc6c79fa6fd3420ff316702 (HEAD -> lineage-21.0)
+Author: Yumi Yukimura <me.cafebabe@gmail.com>
+Date:   Thu Feb 27 20:05:51 2025 +0800
+
+    LINEAGE: util/grub-mkrescue: Use `i386-pc` source dir in prebuilts/bootmgr if present
+    
+    Change-Id: I5799ae15ccad24168491b7935510987e858e5d68
+
+commit 885862c4b068b276223f413dce0bf7d05c1a0c09
+Author: Yumi Yukimura <me.cafebabe@gmail.com>
+Date:   Thu Feb 27 20:09:24 2025 +0800
+
+    LINEAGE: loadstring: Fix compilation
+    
+    Change-Id: I3396a36737839361b6078d188c1c3711730234f1
+
+commit 72b0463d65eb5697e5aa2c16542fa3f5478f5788
 Author: Yumi Yukimura <me.cafebabe@gmail.com>
 Date:   Fri Sep 20 23:53:13 2024 +0800
 
