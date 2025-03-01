@@ -45,6 +45,8 @@
 *terminfo: terminfo
 *test_blockarg: test_blockarg
 *testspeed: testspeed
+*tpm2_key_protector_clear: tpm2_key_protector
+*tpm2_key_protector_init: tpm2_key_protector
 *tr: tr
 *trust: pgp
 *verify_detached: pgp

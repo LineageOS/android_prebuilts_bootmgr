@@ -80,9 +80,10 @@ gcry_blowfish: crypto
 test:
 nilfs2: fshelp
 gcry_rsa: mpi pgp
-cryptodisk: crypto extcmd procfs
+cryptodisk: crypto extcmd key_protector procfs
 minicmd:
 signature_test: functional_test procfs
+key_protector:
 udf: fshelp
 gzio: gcry_crc
 xnu_uuid: gcry_md5
@@ -131,6 +132,7 @@ gcry_rmd160: crypto
 fat: fshelp
 ufs1_be:
 archelp:
+asn1_test: asn1 functional_test
 http: net
 zfs: gzio zstd
 raid6rec: diskfilter
@@ -146,6 +148,7 @@ tar: archelp
 hfs: fshelp
 procfs: archelp
 boot:
+tpm2_key_protector: asn1 extcmd key_protector tss2
 progress: normal
 kernel:
 acpi: extcmd mmap
@@ -156,6 +159,7 @@ zfscrypt: crypto extcmd gcry_rijndael gcry_sha1 pbkdf2 zfs
 dm_nv: diskfilter
 cmp_test: functional_test
 luks: afsplitter crypto cryptodisk pbkdf2
+asn1:
 font: bufio video
 raid5rec: diskfilter
 crc64: crypto
@@ -192,11 +196,12 @@ gcry_sha256: crypto
 ls: datetime extcmd normal
 ntfscomp: ntfs
 lzopio: crypto
+tss2:
 hello: extcmd
 scsi:
 cat: extcmd
 pgp: crypto extcmd gcry_sha1 mpi
-normal: boot bufio crypto datetime extcmd gettext net terminal
+normal: boot bufio crypto cryptodisk datetime extcmd gettext net terminal
 ufs1:
 mdraid09: diskfilter
 lvm: diskfilter
