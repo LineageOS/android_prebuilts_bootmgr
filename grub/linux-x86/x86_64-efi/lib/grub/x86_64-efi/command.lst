@@ -106,6 +106,7 @@ help: minicmd
 hexdump_random: random
 initrd16: linux16
 initrd: linux
+initrd_no_align_up: linux
 keymap: keylayouts
 kfreebsd_loadenv: bsd
 kfreebsd_module: bsd
@@ -180,6 +181,7 @@ terminal_output: terminal
 test: test
 testload: testload
 time: time
+tpm2_dump_pcr: tpm2_key_protector
 true: true
 usb: usbtest
 videoinfo: videoinfo
