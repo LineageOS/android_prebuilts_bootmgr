@@ -81,6 +81,7 @@ gptsync: gptsync
 halt: halt
 help: minicmd
 initrd: linux
+initrd_no_align_up: linux
 linux: linux
 list_trusted: pgp
 loadfont: font
@@ -129,6 +130,7 @@ terminal_output: terminal
 test: test
 testload: testload
 time: time
+tpm2_dump_pcr: tpm2_key_protector
 true: true
 videoinfo: videoinfo
 videotest: videotest
