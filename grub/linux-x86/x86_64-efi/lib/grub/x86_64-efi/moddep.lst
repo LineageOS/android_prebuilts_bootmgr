@@ -221,6 +221,7 @@ video_fb:
 minix3_be:
 trig:
 msdospart: disk parttool
+android_bootimg_fs:
 priority_queue:
 gcry_twofish: crypto
 plainmount: crypto cryptodisk extcmd

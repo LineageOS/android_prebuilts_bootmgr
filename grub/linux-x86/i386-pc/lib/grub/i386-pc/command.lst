@@ -109,6 +109,7 @@ help: minicmd
 hexdump_random: random
 initrd16: linux16
 initrd: linux
+initrd_no_align_up: linux
 keymap: keylayouts
 kfreebsd_loadenv: bsd
 kfreebsd_module: bsd
