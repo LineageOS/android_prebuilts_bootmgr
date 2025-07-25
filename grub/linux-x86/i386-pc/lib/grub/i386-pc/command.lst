@@ -85,6 +85,7 @@ cmostest: cmostest
 configfile: configfile
 continue: normal
 coreboot_boottime: cbtime
+cryptocheck: diskfilter
 cutmem: mmap
 date: date
 distrust: pgp
